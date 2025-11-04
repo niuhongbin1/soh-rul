@@ -1,0 +1,4 @@
+﻿文件名,横轴列,纵轴列,原始数据量,异常值数量,异常值占比
+5_max_1.csv,section,representative_value,503,17,3.38%
+5_max_2.csv,section,representative_value,702,25,3.56%
+5_max_3.csv,section,representative_value,705,15,2.13%
