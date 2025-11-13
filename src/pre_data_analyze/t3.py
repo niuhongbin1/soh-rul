@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 读取CSV文件（分号分隔）
-df = pd.read_csv('./data/cell_log_age_30s_P051_1_S10_C08.csv', delimiter=';')
+df = pd.read_csv('./data_parse\\no_checkup_optimal\\no_checkup_cell_log_age_30s_P051_1_S10_C08.csv', delimiter=';')
 
 # 计算要截取的数据量（前1/10）
 total_rows = len(df)
-sample_size = total_rows // 100
+sample_size = total_rows // 5
 print(f"数据总行数: {total_rows}")
 print(f"截取前 {sample_size} 行数据进行绘图")
 
