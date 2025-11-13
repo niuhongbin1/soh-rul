@@ -76,7 +76,8 @@ for file_index, file_path in enumerate(file_paths):
             if len(non_nan_values) > 0:
                 representative_value = non_nan_values.iloc[0]
                 if len(representative_values) > 0:
-                    representative_value = representative_values[-1]
+                    # representative_value = representative_values[-1]
+                    representative_value =  non_nan_values.iloc[0]
                 else:
                     representative_value = 3
             else:
